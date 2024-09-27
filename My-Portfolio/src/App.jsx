@@ -1,4 +1,11 @@
 import { useState } from "react";
+import Navbar from "./Component/Navbar";
+import Home from "./Component/Home";
+import About from "./Component/About";
+import Portfolio from "./Component/Portfolio";
+import Experience from "./Component/Experience";
+import SocialLinks from "./Component/SocialLinks";
+import Contact from "./Component/Contact";
 
 
 function App() {
@@ -6,7 +13,14 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-red-400 bg-gray-600">Hello world!</h1>
+    <Navbar/>
+    <Home/>
+    <About/>
+    <Experience/>
+    <Portfolio/>
+    <Contact/>
+
+    <SocialLinks/>
     </>
   );
 }
