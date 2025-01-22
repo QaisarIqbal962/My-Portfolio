@@ -82,10 +82,10 @@ const Portfolio = () => {
                 alt={`Portfolio Project ${id}`}  
                 className="rounded-md w-full h-48 object-cover duration-200 hover:scale-105"  
               />  
-              <h1 className="text-center py-2 font-bold text-xl text-blue-400 shadow-md">{lang}</h1>  
+              <h1 className="text-center py-2 font-semibold text-lg text-blue-400 shadow-md">{lang}</h1>  
               <div className="flex items-center justify-center">  
                 <a href={live}>  
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">  
+                  <button className="w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105">  
                     Demo  
                   </button>  
                 </a>  
