@@ -10,13 +10,13 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          {/* As a front-end developer with six months fo experience, I specialize
+          As a front-end developer with six months fo experience, I specialize
           in JavaScript, React and Tailwind CSS. I've built responsive web
           applications and dynamic projects with React, and I'm skilled in using
           Tailwind CSS for efficient and customizable styling. I thrive in
           collaborative environments and am committed to continuous learning.
           I'm eager to contribute to innovative projects and work with talented
-          professionals in the tech industry. */}
+          professionals in the tech industry.
         </p>
       </div>
     </div>
