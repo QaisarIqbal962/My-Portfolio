@@ -14,8 +14,8 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Frontend developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-          I'm a frontend developer specializing in HTML, CSS, JavaScript, React, and Tailwind CSS. I create dynamic, responsive web applications that prioritize user experience and aesthetic appeal, transforming complex ideas into sleek, functional interfaces.
+          <p className="text-gray-200 text-xl mt-20">
+          I’m a front-end developer specializing in HTML, CSS, JavaScript, React, and Tailwind CSS. I create dynamic, responsive web applications that blend functionality with modern design, turning complex ideas into sleek, user-friendly experiences.
           </p>
           <div>
             <Link
@@ -35,7 +35,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 sm:w-80 md:w-[400px] lg:w-[500px] object-contain ml-32"
           />
         </div>
       </div>
